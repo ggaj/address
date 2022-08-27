@@ -1,0 +1,9 @@
+database:
+  dbType: postgres
+  dsn: dbname=postgres sslmode=disable user=postgres password=root host=0.0.0.0
+  env: dev
+  debug: true
+  autoMigrate: true
+
+server:
+  address: 8080
